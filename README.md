@@ -47,6 +47,28 @@ python setup.py sdist bdist_wheel
 ```
 ![generate_binaries](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/generate_binaries.png)
 
+```yaml
+⭐ package_to_publish [project_directory]
+┗ 📦 build [package]
+┗ 🌀 dist [package]
+┗ 🌼 src [package]
+    ┗ 🦄 module_to_publish.py
+    ┗ ❄️ __init__.py
+┗ 🚀 test [package]
+  ┗ test_module_to_publish.py
+┗ ⛔.gitignore
+┗ 🔑 LICENSE
+┗ 🎁 README.md
+┗ 🛒 requeriments.txt
+┗ 🎯 setup.py
+```
+
+- **`build` Directory**:
+  - The `build` directory is where the output of the build process is stored. When you run the command to create the distribution package (e.g., `python setup.py sdist bdist_wheel`), the build process compiles your source code and prepares it for distribution. The `build` directory typically contains temporary files and artifacts generated during the build process. This directory can be safely deleted after the package is successfully created.
+
+- **`dist` Directory**:
+  - The `dist` directory is where the final distribution packages are stored after running the build command. This is the folder that contains the files you will upload to PyPI (Python Package Index) or Test PyPI. The contents of this directory usually include `.tar.gz` and `.whl` files, which are the source distribution and the wheel distribution of your package, respectively. These are the files that other users can install using pip.
+
 ### Install the created package on local machine/environment for testing the package
 ```bash
 pip install -e .
@@ -142,6 +164,27 @@ python setup.py sdist bdist_wheel
 ```
 ![generate_binaries](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/generate_binaries.png)
 
+```yaml
+⭐ package_to_publish [project_directory]
+┗ 📦 build [package]
+┗ 🌀 dist [package]
+┗ 🌼 src [package]
+    ┗ 🦄 module_to_publish.py
+    ┗ ❄️ __init__.py
+┗ 🚀 test [package]
+  ┗ test_module_to_publish.py
+┗ ⛔.gitignore
+┗ 🔑 LICENSE
+┗ 🎁 README.md
+┗ 🛒 requeriments.txt
+┗ 🎯 setup.py
+```
+- **Directorio `build`**:
+  - El directorio `build` es donde se almacenan los resultados del proceso de construcción. Cuando ejecutas el comando para crear el paquete de distribución (por ejemplo, `python setup.py sdist bdist_wheel`), el proceso de construcción compila tu código fuente y lo prepara para su distribución. Este directorio suele contener archivos temporales y artefactos generados durante el proceso de construcción. Este directorio se puede eliminar de forma segura después de que el paquete se haya creado con éxito.
+
+- **Directorio `dist`**:
+  - El directorio `dist` es donde se almacenan los paquetes de distribución finales después de ejecutar el comando de construcción. Esta es la carpeta que contiene los archivos que subirás a PyPI (Python Package Index) o a Test PyPI. El contenido de este directorio generalmente incluye archivos `.tar.gz` y `.whl`, que son la distribución de código fuente y la distribución de ruedas de tu paquete, respectivamente. Estos son los archivos que otros usuarios pueden instalar usando pip.
+  
 ### Instalar el paquete creado en la máquina local/entorno para probar el paquete
 ```bash
 pip install -e .
