@@ -35,6 +35,11 @@
 
 # STEPS CREATE PACKAGE DISTRIBUTION 
 
+# Example - Repository for consultation
+```bash
+https://github.com/JorgeCardona/git-history-analyzer
+```
+
 ### Install Dependencies
 ```bash
 python -m pip install --upgrade setuptools wheel twine
@@ -75,6 +80,10 @@ pip install -e .
 ```
 ![Install_package_on_local_machine](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/Install_package_on_local_machine.png)
 
+### Publish on PyPI
+## Generate API Token
+![publish_pipy_api_token](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/publish_pipy_api_token.png)
+
 ### Publish on Test PyPI
 ## Create account in https://test.pypi.org/account/register/
 ```bash
@@ -90,6 +99,11 @@ twine upload --repository testpypi dist/* --verbose
 ![published_pypi_package](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/published_pypi_package.png)
 
 # DOCUMENTACION EN ESPAÑOL
+# Repositorio de referencia como ejemplo
+```bash
+https://github.com/JorgeCardona/git-history-analyzer
+```
+
 # CÓMO PUBLICAR PAQUETES EN PYPI
 
 # ESTRUCTURA BÁSICA DE UN PROYECTO PARA PUBLICAR
@@ -191,6 +205,12 @@ pip install -e .
 ```
 ![Install_package_on_local_machine](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/Install_package_on_local_machine.png)
 
+
+### Publicar el paquete en PyPI
+## Generar el API Token
+![publish_pipy_api_token](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/publish_pipy_api_token.png)
+
+
 ### Publicar el paquete en Test PyPI
 ## Create account in https://test.pypi.org/account/register/
 ```bash
@@ -206,7 +226,6 @@ twine upload --repository testpypi dist/* --verbose
 
 # Paquete publicado en PYPI
 ![published_pypi_package](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/published_pypi_package.png)
-
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
