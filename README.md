@@ -98,6 +98,9 @@ twine upload --repository testpypi dist/* --verbose
 # Package Published on PYPI
 ![published_pypi_package](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/published_pypi_package.png)
 
+# Package Published on PYPI using Github Actions
+![published_pypi_package_github_actions](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/published_pypi_package_github_actions.png)
+
 # DOCUMENTACION EN ESPAÑOL
 # Repositorio de referencia como ejemplo
 ```bash
@@ -223,6 +226,11 @@ twine upload --repository testpypi dist/* --verbose
 ## Create account in https://pypi.org/account/register/
 
 ![publish_pipy_prod](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/publish_pipy_prod.png)
+
+
+# Publicar el paquete en PyPI Usando Github Actions
+![published_pypi_package_github_actions](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/published_pypi_package_github_actions.png)
+
 
 # Paquete publicado en PYPI
 ![published_pypi_package](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/published_pypi_package.png)
