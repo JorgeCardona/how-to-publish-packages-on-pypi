@@ -84,6 +84,9 @@ pip install -e .
 ## Generate API Token
 ![publish_pipy_api_token](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/publish_pipy_api_token.png)
 
+# Add deployment variable on Github
+![published_pypi_package](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/register_variable_github.png)
+
 ### Publish on Test PyPI
 ## Create account in https://test.pypi.org/account/register/
 ```bash
@@ -213,6 +216,8 @@ pip install -e .
 ## Generar el API Token
 ![publish_pipy_api_token](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/publish_pipy_api_token.png)
 
+# Adicionar la variable de despliegue en Github
+![published_pypi_package](https://raw.githubusercontent.com/JorgeCardona/how-to-publish-packages-on-pypi/refs/heads/main/images/register_variable_github.png)
 
 ### Publicar el paquete en Test PyPI
 ## Create account in https://test.pypi.org/account/register/
